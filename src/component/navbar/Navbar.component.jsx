@@ -6,9 +6,9 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            <strong className="text-white">D</strong>igital
-            <strong className="text-white">P</strong>aresh
+          <a className="navbar-brand text-uppercase" href="#">
+            <strong>D</strong>igital
+            <strong>P</strong>aresh
           </a>
           <button
             className="navbar-toggler"
