@@ -1,0 +1,10 @@
+$nav-color: #343a40;
+.navbar {
+  background-color: $nav-color !important;
+
+  .navbar-brand {
+    color: #61dafb !important;
+    // text-transform: uppercase;
+    font-weight: bold;
+  }
+}
