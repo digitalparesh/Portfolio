@@ -8,10 +8,11 @@ const Home = () => (
       <div className="container">
         <div className="left">
           <h1>
-            Grow your business with{" "}
-            <strong className="title">DigitalParesh</strong>
+            Grow your business with <p className="title">DigitalParesh</p>
           </h1>
-          <span>I am front end developer making website design.</span>
+          <span className="h5">
+            I am front end developer making website design.
+          </span>
           <div>
             <button className="btn btn-outline-primary">Get Started</button>
           </div>
