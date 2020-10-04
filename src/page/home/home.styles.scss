@@ -1,5 +1,5 @@
 .home {
-  height: 91vh;
+  height: 100vh;
   display: flex;
 
   .container {
@@ -43,6 +43,7 @@
 
 @media only screen and (max-width: 640px) {
   .home {
+    padding-top: 3.5rem;
     .container {
       display: flex;
       flex-direction: column;
