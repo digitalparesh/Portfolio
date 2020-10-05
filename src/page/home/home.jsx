@@ -14,7 +14,26 @@ const Home = () => (
             I am front end developer making website design.
           </span>
           <div>
-            <button className="btn btn-outline-primary">Get Started</button>
+            <a
+              href="/"
+              onClick={(e) => {
+                let portfolio = document.getElementById("portfolio");
+                e.preventDefault();
+                portfolio &&
+                  portfolio.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                  });
+                window.history.pushState(
+                  "portfolio",
+                  "portfolio",
+                  "/portfolio"
+                );
+              }}
+              className="btn btn-outline-primary"
+            >
+              View my work
+            </a>
           </div>
         </div>
         <div className="right">

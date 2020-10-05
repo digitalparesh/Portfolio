@@ -7,6 +7,7 @@ import Home from "./page/home/home";
 import About from "./page/about/about";
 import Portfolio from "./page/portfolio/portfolio";
 import Contact from "./page/contact/contact";
+import Footer from "./component/footer/footer.component";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <About />
         <Portfolio />
         <Contact />
+        <Footer />
       </BrowserRouter>
     </>
   );

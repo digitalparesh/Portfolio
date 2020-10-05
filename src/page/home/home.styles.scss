@@ -1,9 +1,11 @@
 #home {
-  height: 100vh;
   padding-top: 10vh;
 }
 .home {
+  height: 100vh;
+  margin-top: -10vh;
   display: flex;
+  align-items: center;
 
   .container {
     display: flex;

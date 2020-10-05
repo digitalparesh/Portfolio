@@ -11,7 +11,7 @@
     margin-bottom: 0.5rem;
   }
 
-  .container {
+  .container-fluid {
     border-radius: 10px;
     margin-top: 1rem;
     display: flex;
@@ -52,7 +52,7 @@
     height: auto;
   }
   .about {
-    .container {
+    .container-fluid {
       flex-direction: column;
       .imgdiv {
         width: 100%;

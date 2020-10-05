@@ -2,3 +2,19 @@
   height: 100vh;
   padding-top: 10vh;
 }
+
+.contact {
+  height: 90%;
+  .title {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 0.5rem;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}

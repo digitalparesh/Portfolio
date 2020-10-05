@@ -10,7 +10,7 @@ const About = () => (
       <h5 className="text-center">
         Let me tell you a little about myself and what I do...
       </h5>
-      <div className="container">
+      <div className="container-fluid">
         <div className="imgdiv">
           <img src={img} alt="myself" />
         </div>

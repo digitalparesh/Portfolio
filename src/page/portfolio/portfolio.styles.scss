@@ -2,3 +2,27 @@
   height: 100vh;
   padding-top: 10vh;
 }
+
+.portfolio {
+  height: 90%;
+  .title {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 0.5rem;
+  }
+
+  .container-fluid {
+    align-items: center;
+    height: 90%;
+    .card-group {
+      justify-content: space-between;
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #portfolio {
+    height: auto;
+  }
+}
